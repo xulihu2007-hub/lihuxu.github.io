@@ -23,7 +23,9 @@ h2, h3 { color: var(--navy); line-height: 1.25; }
 .profile p { max-width: 650px; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 9px 22px; margin-top: 24px; font-family: Arial, sans-serif; font-size: .9rem; }
 a { color: var(--blue); }
-.affiliation { align-self: start; margin-top: 22px; padding: 23px 24px; background: var(--soft); border-top: 3px solid var(--navy); }
+.profile-sidebar { align-self: start; }
+.profile-photo { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 28%; border: 1px solid var(--line); }
+.affiliation { padding: 23px 24px; background: var(--soft); border-top: 3px solid var(--navy); }
 .affiliation strong, .affiliation span, .affiliation a { display: block; }
 .affiliation strong { margin-bottom: 8px; color: var(--navy); }
 .affiliation span { color: var(--muted); font-size: .91rem; }
@@ -46,7 +48,7 @@ footer { border-top: 1px solid var(--line); background: var(--soft); color: var(
   .name { display: block; margin-bottom: 11px; }
   nav { gap: 9px 15px; }
   .profile { grid-template-columns: 1fr; gap: 20px; padding-top: 48px; }
-  .affiliation { max-width: 420px; }
+  .profile-sidebar { max-width: 420px; }
   .two-columns, .student-group { grid-template-columns: 1fr; gap: 6px; }
   section { scroll-margin-top: 125px; }
 }
